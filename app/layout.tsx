@@ -34,7 +34,7 @@ export const metadata: Metadata = {
         media: "(prefers-color-scheme: dark)",
       },
       {
-        url: "/DotEDU_domain_logo.png",
+        url: "/DotEDU_domain_logo.svg.png",
         type: "image/svg+xml",
       },
     ],
