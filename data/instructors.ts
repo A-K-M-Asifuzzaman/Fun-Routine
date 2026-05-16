@@ -1,0 +1,91 @@
+// Complete instructor directory
+// Parsed from SoSET Undergraduate Routine - Summer 2026
+
+import type { Instructor } from "@/types"
+
+export const INSTRUCTORS: Instructor[] = [
+  { shortForm: "Dr. IAZ", fullName: "Dr. Ishtiaque Aziz Zahed" },
+  { shortForm: "Dr. MK", fullName: "Dr. K.M. Mohibul Kabir" },
+  { shortForm: "GMD", fullName: "Mr. Golam Moktader Daiyan" },
+  { shortForm: "TA", fullName: "Mr. Mohammad Toufiq Ahmed" },
+  { shortForm: "Dr. MSA", fullName: "Dr. Md. Shahidul Alam" },
+  { shortForm: "SAF", fullName: "Ms. Saraf Anika" },
+  { shortForm: "TK", fullName: "Ms. Tania Khadem" },
+  { shortForm: "BB", fullName: "Mr. S.M. Baque Billah" },
+  { shortForm: "SHA", fullName: "Ms. Sharmin Akter" },
+  { shortForm: "MC", fullName: "Mr. Mashky Chowdhury Surja" },
+  { shortForm: "KA", fullName: "Mr. Kazi Muhammad Asif Ashrafi" },
+  { shortForm: "AAA", fullName: "Mr. Ahamed-Al-Arifin" },
+  { shortForm: "JM", fullName: "Mr. Joydwip Mohajon" },
+  { shortForm: "SAH", fullName: "Mr. Md. Sabbir Al Ahsan" },
+  { shortForm: "PRM", fullName: "Ms. Parna Mutsuddy" },
+  { shortForm: "TAZ", fullName: "Mr. Tanvir Azhar" },
+  { shortForm: "JHJ", fullName: "Mr. Md. Jahidul Hasan Jahid" },
+  { shortForm: "JUD", fullName: "Mr. Md. Jamil Uddin" },
+  { shortForm: "ARS", fullName: "Ms. Arshiana Shamir" },
+  { shortForm: "SMI", fullName: "Mr. Md. Siratul Mustakim Ifty" },
+  { shortForm: "MRA", fullName: "Mr. Mohammed Morshed Rana" },
+  { shortForm: "SAB", fullName: "Mr. Saklain Abdullah" },
+  { shortForm: "SOA", fullName: "Mr. Sourav Adhikary" },
+  { shortForm: "SKD", fullName: "Mr. Sanath Kumar Das" },
+  { shortForm: "SAK", fullName: "Ms. Shahin Akter" },
+  { shortForm: "TAS", fullName: "Ms. Tahmina Akter Sumi" },
+  { shortForm: "TJ", fullName: "Ms. Tasnimatul Jannah" },
+  { shortForm: "UDD", fullName: "Mr. Udoy Das" },
+  { shortForm: "RHN", fullName: "Mr. Riad Hossain" },
+  { shortForm: "MSR", fullName: "Mr. Md. Sajeed-Ur-Rahman" },
+  { shortForm: "PH", fullName: "Ms. Promila Hoque" },
+  { shortForm: "ABR", fullName: "Mr. Angkur Barua" },
+  { shortForm: "ARC", fullName: "Ms. Arpita Chakraborty" },
+  { shortForm: "ABH", fullName: "Mr. Abid Hossain" },
+  { shortForm: "JNM", fullName: "Ms. Jannatul Naima Deehan" },
+  { shortForm: "MHN", fullName: "Mr. Mehedi Hasan Jony" },
+  { shortForm: "ANC", fullName: "Mr. Antu Chowdhury" },
+  { shortForm: "ANJ", fullName: "Mr. Asif Noor Jamee" },
+  { shortForm: "FT", fullName: "Ms. Fareen Tasneem" },
+  { shortForm: "SSD", fullName: "Mr. Saleh Sakib Ahmed" },
+  { shortForm: "LAM", fullName: "Ms. Lamiya Anjum Mahi" },
+  { shortForm: "IMTIAZ", fullName: "Mr. Imtiaz Akber Chowdhury" },
+  { shortForm: "RUMKY", fullName: "Ms. Tajrin Jahan Rumky" },
+  { shortForm: "JUNAYET", fullName: "Mr. A. S. M. Junayet Hossain" },
+  { shortForm: "SHAMIM", fullName: "Mr. Mostaquimul Abrar Shamim" },
+  { shortForm: "YEASIN", fullName: "Mr. Md. Yeasin" },
+  { shortForm: "ASHRAF", fullName: "Mr. Ashrafur Rahman Chowdhury" },
+  { shortForm: "MONALISA", fullName: "Ms. Monalisa Tripura" },
+  { shortForm: "FARJANA", fullName: "Ms. Farjana Alam Tofa" },
+  { shortForm: "NUSRAT", fullName: "Ms. Nusrat Jahan" },
+  { shortForm: "ANB", fullName: "Ms. Anika Bushra" },
+  { shortForm: "TRINA", fullName: "Ms. Trina Chakroborty" },
+  { shortForm: "SWAPNIL", fullName: "Ms. Swapnil Chowdhury" },
+  { shortForm: "TULY", fullName: "Ms. Mst Tuly Khatun" },
+  { shortForm: "SAMIHA", fullName: "Ms. Ishraq Samiha" },
+  { shortForm: "FARIA", fullName: "Ms. Faria" },
+  { shortForm: "ALFA", fullName: "Ms. Alfa" },
+  { shortForm: "JAMILA", fullName: "Ms. Jamila" },
+  { shortForm: "SUMAIYA", fullName: "Ms. Sumaiya" },
+  { shortForm: "ARFAN", fullName: "Mr. Arfan" },
+  { shortForm: "Mustira", fullName: "Ms. Mustira" },
+  { shortForm: "JAVED", fullName: "Mr. Javed" },
+  { shortForm: "Mehraj", fullName: "Mr. Mehraj" },
+  { shortForm: "MUSFEQA", fullName: "Ms. Musfeqa" },
+  { shortForm: "AN", fullName: "Mr. AN" },
+  { shortForm: "AAF1", fullName: "TBA (AA Faculty 1)" },
+  { shortForm: "AAF2", fullName: "TBA (AA Faculty 2)" },
+  { shortForm: "AAF3", fullName: "TBA (AA Faculty 3)" },
+  { shortForm: "AAF4", fullName: "TBA (AA Faculty 4)" },
+  { shortForm: "AAF5", fullName: "TBA (AA Faculty 5)" },
+  { shortForm: "AAF6", fullName: "TBA (AA Faculty 6)" },
+  { shortForm: "TBA", fullName: "To Be Announced" },
+  { shortForm: "AFNAN", fullName: "Mr. Afnan" },
+  { shortForm: "NEZAM", fullName: "Mr. Nezam" },
+]
+
+// Create lookup map for quick access
+export const INSTRUCTOR_MAP = new Map<string, string>(
+  INSTRUCTORS.map(i => [i.shortForm.toUpperCase(), i.fullName])
+)
+
+// Helper function to get full name
+export function getInstructorFullName(shortForm: string): string {
+  return INSTRUCTOR_MAP.get(shortForm.toUpperCase()) || shortForm
+}
