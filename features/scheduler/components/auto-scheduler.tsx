@@ -77,7 +77,7 @@ export function AutoScheduler() {
         }
       )
       
-      console.log('Scheduler debug:', {
+      console.log('[v0] Scheduler debug:', {
         uniqueCourseCodes: Array.from(uniqueCourseCodes),
         coursesForGenerator: coursesForGenerator.length,
         courseMapSize: courseMap.size,
@@ -103,7 +103,7 @@ export function AutoScheduler() {
       setSelectedScheduleIndex(0)
       toast.success(`Generated ${scored.length} optimal schedule${scored.length !== 1 ? 's' : ''}`)
     } catch (error) {
-      console.error('Scheduler error:', error)
+      console.error('[v0] Scheduler error:', error)
       toast.error('Failed to generate schedules')
     } finally {
       setIsGenerating(false)

@@ -22,23 +22,23 @@ export const metadata: Metadata = {
   description: "Smart academic scheduling platform for East Delta University. Search courses, build conflict-free routines, and export schedules.",
   keywords: ["East Delta University", "EDU", "routine", "schedule", "timetable", "CSE", "courses"],
   authors: [{ name: "EDU SoSET" }],
-  generator: "ASIF Zaman",
+  generator: "v0.app",
   icons: {
     icon: [
       {
-        url: "/DotEDU_domain_logo.svg.png",
+        url: "/icon-light-32x32.png",
         media: "(prefers-color-scheme: light)",
       },
       {
-        url: "/DotEDU_domain_logo.svg.png",
+        url: "/icon-dark-32x32.png",
         media: "(prefers-color-scheme: dark)",
       },
       {
-        url: "/public/DotEDU_domain_logo.svg.png",
+        url: "/icon.svg",
         type: "image/svg+xml",
       },
     ],
-    apple: "/public/DotEDU_domain_logo.svg.png",
+    apple: "/apple-icon.png",
   },
 }
 

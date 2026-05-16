@@ -13,6 +13,7 @@ import {
   Moon,
   Sun,
   Settings,
+  FileUp,
 } from "lucide-react"
 import { useTheme } from "next-themes"
 
@@ -40,6 +41,12 @@ const mainNavItems = [
     label: "Home",
     href: "/",
     icon: Home,
+  },
+  {
+    label: "Import Routine",
+    href: "/import",
+    icon: FileUp,
+    badge: "start here",
   },
   {
     label: "Routine Explorer",
