@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   description: "Smart academic scheduling platform for East Delta University. Search courses, build conflict-free routines, and export schedules.",
   keywords: ["East Delta University", "EDU", "routine", "schedule", "timetable", "CSE", "courses"],
   authors: [{ name: "EDU SoSET" }],
-  generator: "v0.app",
+  generator: "ASIF Zaman",
   icons: {
     icon: [
       {
